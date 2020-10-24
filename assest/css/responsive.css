@@ -141,6 +141,9 @@
     .welcome-slider-area .owl-controls {
         display: none;
     }
+    .navbar-brand > img{
+        width: 16vh;
+    }
 }
 
 /*----------------------------------
