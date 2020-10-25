@@ -91,11 +91,12 @@ Version: 1.0
 
 .features-box-icon {
     background: #d3ffea none repeat scroll 0 0;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #0055b7;
     height: 70px;
     margin-bottom: 40px;
     padding-top: 15px;
+    padding-left: 100px;
     text-align: center;
     width: 70px;
 }
