@@ -112,7 +112,7 @@ ul#nav li.active > a {
 
 .menu-two ul#nav li a:hover,
 .menu-two ul#nav li.active > a {
-    color: #8256ff;
+    color: yellow;
 }
 
 .is-sticky .menu-two ul#nav li a {
@@ -125,7 +125,7 @@ ul#nav li.active > a {
 
 .is-sticky .menu-two ul#nav li a:hover,
 .is-sticky .menu-two ul#nav li.active > a {
-    color: #8256ff;
+    color: yellow;
 }
 
 /*-------------------------
