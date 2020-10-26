@@ -69,6 +69,7 @@
           }
         }
         else {
+          
           var newTop = documentHeight - s.stickyElement.outerHeight()
             - s.topSpacing - s.bottomSpacing - scrollTop - extra;
           if (newTop < 0) {
@@ -93,6 +94,7 @@
               .css('z-index', s.zIndex);
 
             s.stickyElement.parent().addClass(s.className);
+            
 
             if (s.currentTop === null) {
               s.stickyElement.trigger('sticky-start', [s]);
@@ -129,6 +131,7 @@
               .css('bottom', '')
               .css('z-index', s.zIndex);
           }
+          
         }
       }
     },

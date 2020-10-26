@@ -1,26 +1,130 @@
-/*--------------------------------------------------------------------------------------
-Theme Name: EDUCROWN
-Theme URI: http://quomodosoft.com
-Author URI: http://quomodosoft.com
-Description: 100% Responsive, Highly Customizable, SEO Friendly Education Based HTML5 template using Twitter Bootstrap Latest, Search Engine Friendly.
-Author: Mehedi Hasan Nahid
-Author Email: mehedidb@gmail.com
-Version: 1.0
-----------------------------------------------------------------------------------------
-    1. SLIDER AREA
-    2. FEATURES AREA
-    3. FUN FACT AREA
-    4. COURSE AERA
-    5. VIDEO AREA
-    6. TESTMONIAL AREA
-    7. BLOG AREA
-    8. FAQS AREA
-    9. CONTACT AREA
-    10. CLIENT AREA
-    11. FOOTER AREA
-    12. SCROLL TO TOP AREA
-----------------------------------------------------------------------------------------*/
 
+#mu-header {
+    text-align: center;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  .menu-bg-icon{
+    opacity: .2;
+    bottom: -20px;
+    right: -25px;
+    position: absolute;
+  }
+  
+  #top-menu li a:hover{
+  
+  }
+  .navbar-header .navbar-toggle .icon-bar
+  {
+    background-color: white!important;
+  }
+  
+  /*==================
+   NAVBAR SECTION
+  ====================*/
+  .mu-main-navbar {
+    background-color: #333;
+    border: none;
+    padding: 1px 0;
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .mu-main-navbar .mu-main-nav {
+    font-family: "Open Sans", sans-serif;
+    float: right;
+    vertical-align: middle;
+  }
+  .mu-main-navbar .mu-main-nav li a {
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 22px 10px!important;
+  }
+  .mu-main-navbar .mu-main-nav li a:hover {
+    color: #0055b7!important;
+    
+    
+  }
+  
+  .mu-main-navbar .mu-main-nav .dropdown-menu {
+    background-color: #333;
+    border-radius: 0;
+  }
+  .mu-main-navbar .mu-main-nav .dropdown-menu li a {
+    padding: 10px 20px;
+  }
+  .mu-main-navbar .navbar-header .navbar-brand {
+    padding: 0;
+    margin-top: 8px;
+    height: 34px;
+    width: 145px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .mu-main-navbar .navbar-header .navbar-brand img {
+    margin-left: 5px;
+  
+    width: 10%;
+    height: 100%;
+  }
+  .mu-main-navbar .navbar-header .navbar-brand-small {
+    height: 20px;
+    margin-top: 16px;
+    width: 105px;
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgba(0,0,0,.0001)!important;
+    color: #fff;
+    border-bottom: 2px solid red;
+  }
+  
+  .navbar-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+  }
+  .nav-log{
+    width: 250px;
+    height: 125px;
+  }
+  .logo-tp{
+    padding: 0px;
+  }
+  .logo-tp li{
+  
+  }
+  .logo-tp  img{
+    width: 200px;
+  
+  }
+  
+  
+  
+
+.a-logo{
+    width: 150px;
+}
+
+
+.h-logo{
+    width: 350px;
+}
+.test{
+    background-color: red;
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 
 /*--------------------------

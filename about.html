@@ -30,6 +30,8 @@
     <link href="assest/css/responsive.css" rel="stylesheet">
 
     <script src="assest/js/vendor/modernizr-2.8.3.min.js"></script>
+
+ 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -44,46 +46,51 @@
 
     <!--- PRELOADER -->
     <div class="preeloader">
-        <div class="preloader-spinner"></div>
+        <div class="preloader-spinner">
+            
+        </div>
     </div>
 
     <!--SCROLL TO TOP-->
     <a href="#scroolup" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
 
     <!--START TOP AREA-->
-    <header class="top-area" id="home">
-        <div class="header-top-area" id="scroolup">
-            <!--MAINMENU AREA-->
-            <div class="mainmenu-area" id="mainmenu-area">
-                <div class="mainmenu-area-bg"></div>
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <a href="#home" class="navbar-brand"><img src="assest/img/nobglog.gif" alt="logo"></a>
-                        </div>
-                        <div id="main-nav" class="stellarnav">
-                            <ul id="nav" class="nav navbar-nav pull-right">
-                                <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#features">Services</a>
-                                <ul>
-                                    <li><a href="about.html">DGCA ground classes</a></li>
-                                    <li><a href="about.html">Professional Training Courses</a></li>
-                                    <li><a href="about.html">DGCA CPL Conversion</a></li>
-                                </ul></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="#testmonial">Contact</a></li>
-                                <!--<li><a href="#blog">Blog</a></li>
-                                <li><a href="#faqs">Faqs</a></li>-->
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+    <header id="mu-header">  
+        <nav class="navbar navbar-default mu-main-navbar " role="navigation">  
+          <div class="container">
+            <div class="navbar-header">
+              <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- LOGO -->  
+              <a  href="index.html"><img class="a-logo" src="./assest/img/nobglog.gif"  alt="Logo img"></a> 
+              <!-- <li class="mobile-logo">
+                <a href="#header"><img src="logo.png" alt="" id="logo-tp"></a>
+            </li>                                                       -->
+              
             </div>
-            <!--END MAINMENU AREA END-->
-        </div>
+            
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul id="top-menu" class="nav navbar-nav navbar navbar-center mu-main-nav">
+                <li><a href="#mu-slider">HOME</a></li>
+                <li><a href="#mu-about-us">ABOUT US</a></li>                       
+                <li><a href="#mu-restaurant-menu">MENU</a></li>                       
+                
+                <li><a href="#mu-gallery">GALLERY</a></li>
+                
+                <li><a href="#mu-contact">CONTACT</a></li> 
+        
+              </ul>                            
+            </div><!--/.nav-collapse -->       
+          </div>          
+        </nav> 
+      </header>
 
-        <!-- WELCOME SLIDER AREA-->
+        <!--WELCOME SLIDER AREA-->
         <!-- <div class="welcome-slider-area white font16">
             <div class="welcome-single-slide">
                 <div class="slide-bg-one slide-bg-overlay"></div>
@@ -149,7 +156,7 @@
                 </div>
             </div>
         </div> -->
-        <!--WELCOME SLIDER AREA END -->
+        <!--WELCOME SLIDER AREA END-->
     </header>
     <!--END TOP AREA-->
 
@@ -421,7 +428,7 @@
                 <div class="col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
                     <div class="video-promo-details wow fadeIn">
                         <div class="video-promo-content">
-                            <span data-video-id="j1S66liv1t8" class="video-area-popup mb30"><i class="fa fa-play"></i></span>
+                            <span data-video-id="l4V5r8-6T5w" class="video-area-popup mb30"><i class="fa fa-play"></i></span>
                         </div>
                         <img src="assest/img/about/about.jpg" alt="">
                     </div>
@@ -672,7 +679,7 @@
             <div class="row flex-v-center">
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                     <div class="admition-content xs-center xs-mb30">
-                        <h3 class="xs-font20">Addmission are now open</h3>
+                        <h3 class="sp" style="text-align: left;">Addmission are now open</h3>
                         <p>Briefing of admission comes here Briefing of admission comes here</p>
                     </div>
                 </div>
@@ -776,7 +783,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!--===== ACTIVE JS=====-->
     <script src="assest/js/main.js"></script>
-
     <!--===== MAPS JS=====-->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&sensor=false"></script>
     <script src="assest/js/maps.active.js"></script>

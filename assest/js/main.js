@@ -1,3 +1,15 @@
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    console.log("iam worked");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("h-logo").style.width = "100px";
+  } else {
+    document.getElementById("h-logo").style.width = "400px";
+  }
+}
+
+
 jQuery(document).on('ready', function ($) {
     "use strict";
 
@@ -21,6 +33,8 @@ jQuery(document).on('ready', function ($) {
         event.preventDefault();
     });
 
+
+   
 
     /*----------------------------
         MOBILE & DROPDOWN MENU
@@ -248,3 +262,4 @@ jQuery(window).on('load', function () {
     $(".preeloader").fadeOut(1000);
 
 });
+
