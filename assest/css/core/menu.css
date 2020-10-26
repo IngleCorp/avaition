@@ -95,7 +95,7 @@ ul#nav li li a {
 
 ul#nav li a:hover,
 ul#nav li.active > a {
-    color: #31dc89;
+    color: #0055b7;
 }
 
 /*-------------------------
@@ -217,7 +217,7 @@ END MENU VARIENT
 }
 
 .menu-toggle.full {
-    border: 1px solid;
+    
     height: 40px;
     letter-spacing: 2px;
     padding-top: 8px;
@@ -225,7 +225,7 @@ END MENU VARIENT
     right: 15px;
     text-align: center;
     top: 20px;
-    width: 110px;
+    width: 60px;
     z-index: 9999;
     -webkit-transition: 0.3s;
     transition: 0.3s;

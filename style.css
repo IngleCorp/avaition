@@ -196,11 +196,12 @@
 .features-box-icon {
     background: #d3ffea none repeat scroll 0 0;
     border-radius: 15px;
-    color: #0be27a;
+    color: #171932;
     height: 70px;
     margin-bottom: 40px;
     padding-top: 15px;
-    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 70px;
 }
@@ -558,7 +559,7 @@ a.enroll-button:hover {
 }
 
 .footer-list ul li a:hover {
-    color: #31dc89;
+    color: #0be27a;
 }
 
 .subscriber-form {
