@@ -4,10 +4,13 @@ function scrollFunction() {
     console.log("iam worked");
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("h-logo").style.width = "100px";
+    document.getElementById("mu").style.backgroundColor = "transparent!important";
   } else {
     document.getElementById("h-logo").style.width = "400px";
+    document.getElementById("mu").style.backgroundColor = "transparent!important";
   }
 }
+
 
 
 jQuery(document).on('ready', function ($) {
@@ -20,6 +23,17 @@ jQuery(document).on('ready', function ($) {
         topSpacing: 0
     });
 
+    $('li.dropdown').find('.fa-angle-down').each(function(){
+		$(this).on('click', function(){
+            
+			if( $(window).width() < 768 ) {
+				$(this).parent().next().slideToggle();
+			}
+			return false;
+		});
+    });
+    
+  
     /*---------------------------
         SMOOTH SCROLL
     -----------------------------*/

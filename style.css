@@ -19,8 +19,14 @@
   }
   .navbar-header .navbar-toggle .icon-bar
   {
-    background-color: white!important;
+    background-color: black!important;
   }
+  
+  .navbar-header .navbar-toggle:hover
+  {
+    background-color: transparent;
+  }
+  
   
 
 /* faq list................. */
@@ -84,7 +90,7 @@
    NAVBAR SECTION
   ====================*/
   .mu-main-navbar {
-    background-color: #ebcb1c;
+    background-color: black;
     border: none;
     padding: 1px 0;
     border-radius: 0;
@@ -99,6 +105,7 @@
     float: right;
     vertical-align: middle;
   }
+  
   .mu-main-navbar .mu-main-nav li a {
     color: #fff;
     -webkit-transition: all 0.5s;
@@ -106,7 +113,7 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    padding: 22px 10px!important;
+    padding: 22px 30px!important;
   }
   .mu-main-navbar .mu-main-nav li a:hover {
     color: #0055b7!important;
@@ -121,6 +128,85 @@
   .mu-main-navbar .mu-main-nav .dropdown-menu li a {
     padding: 10px 20px;
   }
+  /* mu-main-navbar .mu-main-nav li a */
+ 
+/* ...................................................... */
+.dropdown:hover .sub-menu{
+    display: block;
+    margin-top: 2px;
+}
+
+.dropdown.sub-menu ul li{
+ margin-top: 2px;
+}
+.mu-main-navbar .mu-main-nav li ul.sub-menu li a{
+padding: 10px!important;
+}
+ul.sub-menu {
+    min-width: -webkit-fill-available;
+    display: none;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  ul.sub-menu li{
+    padding-top: 15px;
+    
+    min-width: max-content;
+    border-bottom: 1px solid white;
+  }
+ 
+  
+  /* #header .navbar-nav li ul.sub-menu li a{
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 13px;
+    display: block;
+    text-transform: capitalize;
+  }
+  
+  #header .navbar-nav li ul.sub-menu li .active{
+    background: #00aeef;
+    color: #fff;
+    position: relative;
+  }
+  
+  #header .navbar-nav li ul.sub-menu li .active i{
+    position: absolute;
+    font-size: 56px;
+    top: -13px;
+    color: #0884d5;
+  }
+  
+  #header .navbar-nav li ul.sub-menu li .active .fa-angle-right{
+    left: -3px;
+  }
+  
+  #header .navbar-nav li ul.sub-menu li .active .fa-angle-left{
+    right: -3px;
+  }
+  
+  #header .navbar-nav li ul.sub-menu li a:hover,
+  #header .navbar-nav li ul.sub-menu li a:focus{
+    background: #00aeef;
+    color: #fff;
+  }
+   */
+  .fa-angle-down{
+    padding-left: 5px; 
+  }
+
+  /* ............................................................................ */
+
+
+
+
+
+
   .mu-main-navbar .navbar-header .navbar-brand {
     padding: 0;
     margin-top: 8px;
@@ -170,12 +256,21 @@
   }
   
   
-  
+.nav-log-bx{
+    background-color: #edcd1f;
+    height: -webkit-fill-available;
+    width: auto;
+    top: 0;
+    padding-left: 14px;
+    padding-right: 20px;
+    position: absolute;
+}
 
 .a-logo{
     width: 150px;
     float: left;
 }
+
 
 
 .h-logo{
