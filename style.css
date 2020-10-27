@@ -84,7 +84,7 @@
    NAVBAR SECTION
   ====================*/
   .mu-main-navbar {
-    background-color: #333;
+    background-color: #ebcb1c;
     border: none;
     padding: 1px 0;
     border-radius: 0;
@@ -200,6 +200,10 @@
 
 .slide-bg-three {
     background: rgba(0, 0, 0, 0) url("assest/img/slider/slide_2.jpg") no-repeat scroll center center / cover;
+
+}
+.slide-bg-four {
+    background: rgba(0, 0, 0, 0) url("assest/img/slider/slide_2.jpg") no-repeat scroll center center / cover;
 }
 
 .welcome-slider-area .owl-controls {
@@ -218,10 +222,10 @@
 }
 
 .welcome-slider-area .owl-nav > div {
-    background: #d3ffea none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     border-radius: 50%;
     bottom: 0;
-    color: #0055b7;
+    color: yellow;
     font-size: 35px;
     height: 50px;
     margin: 10px 0;
