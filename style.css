@@ -23,7 +23,31 @@ body{
     padding-bottom: 1px;
 }
 
+.step-bx{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    margin: 5px;
+}
+.course-sub-bx{
+    margin-top: 20px;
+}
 
+.feature-bx{
+    
+}
+.btn-contact-pop{
+    background-color: #edcd1f;
+    padding: 15px;
+    position: fixed;
+    top: 85vh;
+    right: 0;
+    width: 52px;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+/* header............................................................................... */
 #mu-header {
     text-align: center;
     right: 0;
