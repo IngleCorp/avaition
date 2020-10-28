@@ -98,6 +98,7 @@
 
 .owl-carousel.owl-loaded {
     display: block;
+    z-index: 40;
 }
 
 .owl-carousel.owl-loading {
