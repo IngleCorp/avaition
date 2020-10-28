@@ -15,7 +15,13 @@ body{
     font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
 }
 
-
+.b-line{
+    border-bottom: 10px solid #edcd1f;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 1px;
+}
 
 
 #mu-header {
