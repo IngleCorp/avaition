@@ -4,10 +4,12 @@ function scrollFunction() {
     console.log("iam worked");
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("h-logo").style.width = "100px";
-    document.getElementById("mu").style.backgroundColor = "transparent!important";
+    document.getElementById("a-logo").style.width = "100px";
+    
   } else {
     document.getElementById("h-logo").style.width = "400px";
-    document.getElementById("mu").style.backgroundColor = "transparent!important";
+    document.getElementById("a-logo").style.width = "400px";
+    
   }
 }
 
@@ -33,6 +35,38 @@ jQuery(document).on('ready', function ($) {
 		});
     });
     
+    
+
+         
+        var scroll_pos = 0;
+        $(document).scroll(function() {
+            scroll_pos = $(this).scrollTop();
+            if(scroll_pos > 300) {
+                $(".mu-main-navbar").css('background-color', 'black');
+                $(".nav-log-bx").css('background-color', '#edcd1f');
+
+               
+            } else {
+                $(".mu-main-navbar").css('background-color', 'transparent');
+                $(".nav-log-bx").css('background-color', 'transparent');
+                
+            }
+        });
+    
+
+        var scroll_pos = 0;
+        $(document).scroll(function() {
+            scroll_pos = $(this).scrollTop();
+            if( $(window).width() < 991 ) {
+            if(scroll_pos > 20) {
+               
+                $(".nav-log-bx").css('background-color', '#edcd1f');
+            } else {
+              
+                $(".nav-log-bx").css('background-color', 'transparent');
+            }
+        }
+        });
   
     /*---------------------------
         SMOOTH SCROLL
