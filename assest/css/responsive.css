@@ -149,6 +149,13 @@
         background-color: yellow;
       }
 
+      .mu-main-navbar .mu-main-nav li.active > a {
+        color: #0d0338!important;
+        
+        
+      }
+     
+
 
       
 }
@@ -216,8 +223,13 @@
       }
      .navbar-header{
         border-bottom: none!important;
-        ]
+        
      }
+     .mu-main-navbar .mu-main-nav li.active > a {
+        color: #0d0338!important;
+        
+        
+      }
      
 }
 
