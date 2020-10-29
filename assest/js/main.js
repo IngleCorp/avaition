@@ -38,20 +38,20 @@ jQuery(document).on('ready', function ($) {
     
 
          
-        var scroll_pos = 0;
-        $(document).scroll(function() {
-            scroll_pos = $(this).scrollTop();
-            if(scroll_pos > 300) {
-                $(".mu-main-navbar").css('background-color', 'black');
-                $(".nav-log-bx").css('background-color', '#edcd1f');
+        // var scroll_pos = 0;
+        // $(document).scroll(function() {
+        //     scroll_pos = $(this).scrollTop();
+        //     if(scroll_pos > 300) {
+        //         $(".mu-main-navbar").css('background-color', 'black');
+        //         $(".nav-log-bx").css('background-color', '#edcd1f');
 
                
-            } else {
-                $(".mu-main-navbar").css('background-color', 'transparent');
-                $(".nav-log-bx").css('background-color', 'transparent');
+        //     } else {
+        //         $(".mu-main-navbar").css('background-color', 'transparent');
+        //         $(".nav-log-bx").css('background-color', 'transparent');
                 
-            }
-        });
+        //     }
+        // });
     
 
         var scroll_pos = 0;

@@ -149,12 +149,20 @@
         background-color: yellow;
       }
 
-      .mu-main-navbar .mu-main-nav li.active > a {
-        color: #0d0338!important;
+      .mu-main-navbar .mu-main-nav li a:hover {
+        color: #f3f3f3 !important;
         
         
       }
-     
+      
+      /* #edcd1f */
+      .mu-main-navbar .mu-main-nav li a:active  {
+        background-color: #ffffff;
+    
+        
+        
+        
+      }
 
 
       
@@ -226,7 +234,7 @@
         
      }
      .mu-main-navbar .mu-main-nav li.active > a {
-        color: #0d0338!important;
+        color: white;
         
         
       }

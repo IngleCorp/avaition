@@ -149,7 +149,7 @@ body{
   } 
 
   .mu-main-navbar {
-    /* background-color: black; */
+    background-color: #1e2d3b;
     border: none;
     padding: 1px 0;
     border-radius: 0;
@@ -175,19 +175,22 @@ body{
     padding: 22px 30px!important;
   }
   .mu-main-navbar .mu-main-nav li a:hover {
-    color: #edcd1f!important;
+    color: #31dc89 !important;
     
     
   }
+  
+  /* #edcd1f */
+  .mu-main-navbar .mu-main-nav li a:active  {
+    background-color: #edcd1f;
 
-  .mu-main-navbar .mu-main-nav li.active > a {
-    color: #edcd1f!important;
+    
     
     
   }
   
   .mu-main-navbar .mu-main-nav .dropdown-menu {
-    background-color: #333;
+    background-color: rgb(248, 0, 0);
     border-radius: 0;
   }
   .mu-main-navbar .mu-main-nav .dropdown-menu li a {
