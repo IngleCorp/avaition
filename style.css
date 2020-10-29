@@ -457,16 +457,16 @@ ul.sub-menu {
 }
 
 a.enroll-button {
-    background: #d3ffea none repeat scroll 0 0;
+    background:  #3d5975 none repeat scroll 0 0;
     border-radius: 0px;
-    color: #0be27a;
+    color: #EDCD1F;
     padding: 10px 15px;
     text-transform: capitalize;
 }
 
 a.enroll-button:hover {
-    background: #171932 none repeat scroll 0 0;
-    color: #ffffff;
+    background: #EDCD1F none repeat scroll 0 0;
+    color:  #1e2d3b;
 }
 
 .course-price {
