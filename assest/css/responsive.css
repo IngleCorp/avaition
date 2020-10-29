@@ -158,10 +158,12 @@
       /* #edcd1f */
       .mu-main-navbar .mu-main-nav li a:active  {
         background-color: #ffffff;
-    
         
-        
-        
+      }
+
+      .navbar-header{
+        height: 100px;
+        border-bottom: none!important;
       }
 
 
@@ -231,6 +233,7 @@
       }
      .navbar-header{
         border-bottom: none!important;
+        height: 100px;
         
      }
      .mu-main-navbar .mu-main-nav li.active > a {

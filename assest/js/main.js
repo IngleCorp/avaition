@@ -36,6 +36,20 @@ jQuery(document).on('ready', function ($) {
     });
     
     
+    var vids = $("video"); 
+    $.each(vids, function(){
+           this.controls = false; 
+    }); 
+    //Loop though all Video tags and set Controls as false
+    
+    $("video").click(function() {
+      //console.log(this); 
+      if (this.paused) {
+        this.play();
+      } else {
+        this.play();
+      }
+    });
 
          
         // var scroll_pos = 0;
@@ -54,6 +68,7 @@ jQuery(document).on('ready', function ($) {
         // });
     
 
+
         var scroll_pos = 0;
         $(document).scroll(function() {
             scroll_pos = $(this).scrollTop();
@@ -63,7 +78,7 @@ jQuery(document).on('ready', function ($) {
                 $(".nav-log-bx").css('background-color', '#edcd1f');
             } else {
               
-                $(".nav-log-bx").css('background-color', 'transparent');
+                $(".nav-log-bx").css('background-color', '#edcd1f');
             }
         }
         });

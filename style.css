@@ -51,6 +51,17 @@ body{
     z-index: 16;
 }
 
+
+.home-text{
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.navbar-header{
+height: 90px;
+}
 /* header............................................................................... */
 #mu-header {
     text-align: center;
@@ -143,9 +154,9 @@ body{
    NAVBAR SECTION
   ====================*/
   .navbar-nav.navbar-center { 
-  
-    left: 50%; 
-    transform: translatex(-50%); 
+    padding: 20px 0px;
+    float: right;
+    /* transform: translatex(-50%);  */
   } 
 
   .mu-main-navbar {
@@ -182,7 +193,7 @@ body{
   
   /* #edcd1f */
   .mu-main-navbar .mu-main-nav li a:active  {
-    background-color: #edcd1f;
+    background-color: none;
 
     
     
@@ -278,7 +289,7 @@ ul.sub-menu {
   .mu-main-navbar .navbar-header .navbar-brand {
     padding: 0;
     margin-top: 8px;
-    height: 34px;
+    height: 100px;
     width: 145px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -327,7 +338,7 @@ ul.sub-menu {
 .nav-log-bx{
     background-color: #edcd1f;
     height: -webkit-fill-available;
-    width: auto;
+    width: 25%;
     top: 0;
     padding-left: 14px;
     padding-right: 20px;
@@ -335,8 +346,9 @@ ul.sub-menu {
 }
 
 .a-logo{
-    width: 150px;
+    width: 220px;
     float: left;
+    padding: 15px 0px;
 }
 
 
