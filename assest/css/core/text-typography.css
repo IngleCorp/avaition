@@ -18,7 +18,7 @@
 }
 
 a {
-    color: #2e2e43;
+    color: #3D5975;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -141,7 +141,7 @@ input:-webkit-autofill:focus {
 }
 
 .font20 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .font22 {
