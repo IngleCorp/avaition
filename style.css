@@ -36,15 +36,22 @@ body{
     
 }
 .btn-contact-pop{
-    background-color: #edcd1f;
+    background-color: #f4364c;
     padding: 15px;
     position: fixed;
-    top: 92vh;
-    right: 5px;
+    top: 40vh;
+    height: 150px;
+    right: 0px;
+    text-align: center;
     width: 52px;
+    text-orientation: revert;
     color: white;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     z-index: 15;
+    writing-mode: vertical-rl;
+}
+.btn-contact-pop a{
+    color: white;
 }
 
 .ft-zindex{
