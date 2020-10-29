@@ -725,9 +725,9 @@ a.enroll-button:hover {
 }
 
 .contact-form button {
-    background: #3ee792 none repeat scroll 0 0;
+    background: #1e2d3b none repeat scroll 0 0;
     border: 0 none;
-    border-radius: 50px;
+    border-radius: 0px;
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 2px;
