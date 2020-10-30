@@ -466,11 +466,11 @@ ul.sub-menu {
 ----------------------------------*/
 
 .fun-fact-area .area-bg {
-    background: rgba(0, 0, 0, 0) url("assest/img/fact-bg.jpg") no-repeat scroll center center / cover;
+    background: #EDCD1F
 }
 
 .fun-fact-area .area-bg::after {
-    background: #000000 none repeat scroll 0 0;
+    background: #EDCD1F
     opacity: 0.6;
 }
 
