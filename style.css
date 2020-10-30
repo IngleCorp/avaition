@@ -466,7 +466,7 @@ ul.sub-menu {
 ----------------------------------*/
 
 .fun-fact-area .area-bg {
-    background: #EDCD1F
+    background: url(assest/img/slider/2.png)
 }
 
 .fun-fact-area .area-bg::after {
