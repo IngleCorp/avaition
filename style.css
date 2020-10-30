@@ -772,8 +772,8 @@ a.enroll-button:hover {
 }
 
 .enroll-button a {
-    background: #31dc89 none repeat scroll 0 0;
-    border-radius: 50px;
+    background: #3d5975 none repeat scroll 0 0;
+    border-radius: 0px;
     color: #ffffff;
     display: inline-block;
     font-weight: 600;
@@ -784,7 +784,7 @@ a.enroll-button:hover {
 }
 
 .enroll-button a:hover {
-    background: #171932 none repeat scroll 0 0;
+    background:  #edcd1f none repeat scroll 0 0;
 }
 
 /*---------------------------------
