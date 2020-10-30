@@ -49,6 +49,7 @@ body{
     /* border-radius: 50px; */
     z-index: 15;
     writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 .btn-contact-pop a{
     color: white;
