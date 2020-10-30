@@ -76,6 +76,7 @@ jQuery(document).on('ready', function ($) {
             if(scroll_pos > 20) {
                
                 $(".nav-log-bx").css('background-color', '#edcd1f');
+                
             } else {
               
                 $(".nav-log-bx").css('background-color', '#edcd1f');

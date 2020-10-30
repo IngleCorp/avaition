@@ -69,6 +69,12 @@ body{
 .navbar-header{
 height: 90px;
 }
+
+.slide-video{
+    position: relative;
+    margin-top: 100px;
+}
+
 /* header............................................................................... */
 #mu-header {
     text-align: center;
