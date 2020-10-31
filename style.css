@@ -175,6 +175,9 @@ color: white!important;
     float: right;
     /* transform: translatex(-50%);  */
   } 
+  .modal{
+    top: 10vh!important;
+  }
 
   .mu-main-navbar {
     background-color: #1e2d3b;
@@ -195,6 +198,7 @@ color: white!important;
   
   .mu-main-navbar .mu-main-nav li a {
     color: #fff;
+    font-family: avenir-lt-w01_35-light1475496, sans-serif;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
