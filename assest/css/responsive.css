@@ -190,7 +190,9 @@
     .welcome-slider-area .owl-controls {
         display: none;
     }
-
+.padding-top-service{
+    padding-top: 0px;
+}
     .nav-log-bx{
         background-color: #edcd1f;
         height: -webkit-fill-available;
