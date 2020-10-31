@@ -576,7 +576,7 @@ a.enroll-button:hover {
 }
 
 .author-content::before {
-    color: #3ee792;
+    color: #edcd1f;
     content: "\f10e";
     font-family: fontawesome;
     font-size: 41px;
