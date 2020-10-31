@@ -47,7 +47,7 @@ body{
     text-orientation: revert;
     color: white;
     /* border-radius: 50px; */
-    z-index: 15;
+    z-index: 55;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
@@ -56,7 +56,7 @@ body{
 }
 
 .ft-zindex{
-    z-index: 16;
+    z-index:60;
 }
 
 
