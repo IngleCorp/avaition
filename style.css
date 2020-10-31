@@ -86,6 +86,12 @@ height: 90px;
     z-index: -1;
     width: 100%;
 }
+/* .slide-video video{
+    position: fixed;
+    margin-top: 100px;
+    z-index: -1;
+    width: 100%;
+} */
 .slide-text{
 font-size: 40px;
 color: white!important;

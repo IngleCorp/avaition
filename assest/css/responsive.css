@@ -260,10 +260,15 @@
 
 
 /* slider height */
-
-@media only screen and (min-width: 280px)and (max-width: 479px) {
+@media only screen and (min-width: 150px)and (max-width: 300px) {
     .slide-video-out{
-      height: 280px!important;
+      height: 40vh!important;
+    }
+}
+
+@media only screen and (min-width: 300px)and (max-width: 479px) {
+    .slide-video-out{
+      height: 50vh!important;
     }
 }
 
