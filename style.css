@@ -203,14 +203,14 @@ color: white!important;
     padding: 22px 30px!important;
   }
   .mu-main-navbar .mu-main-nav li a:hover {
-    color: #31dc89 !important;
+    color: #edcd1f !important;
     
     
   }
   
   /* #edcd1f */
   .mu-main-navbar .mu-main-nav li a:active  {
-    background-color: none;
+    background-color: white;
 
     
     
@@ -245,7 +245,7 @@ ul.sub-menu {
     padding: 10px;
     margin: 0;
     position: absolute;
-    background-color: black;
+    background-color: #1e2d3b;
     cursor: pointer;
   }
 
@@ -470,8 +470,8 @@ ul.sub-menu {
 }
 
 .fun-fact-area .area-bg::after {
-    background: #EDCD1F
-    opacity: 0.6;
+    background: #EDCD1F;
+    opacity: 1;
 }
 
 /*---------------------------------
