@@ -157,7 +157,7 @@
       
       /* #edcd1f */
       .mu-main-navbar .mu-main-nav li a:active  {
-        background-color: #ffffff;
+        color: white!important;
         
       }
 
@@ -237,7 +237,7 @@
         
      }
      .mu-main-navbar .mu-main-nav li.active > a {
-        color: white;
+        color: white!important;
         
         
       }
@@ -257,3 +257,53 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/* slider height */
+
+@media only screen and (min-width: 280px)and (max-width: 479px) {
+    .slide-video-out{
+      height: 280px!important;
+    }
+}
+
+@media only screen and (min-width: 480px)and (max-width: 599px) {
+    .slide-video-out{
+        height: 58vh!important;
+      }
+
+}
+
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+    .slide-video-out{
+        height: 69vh!important;
+      }
+
+}
+
+@media only screen and (min-width: 768px)and (max-width: 899px) {
+    .slide-video-out{
+        height: 85vh!important;
+      }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1023px){
+    .slide-video-out{
+        height: 98vh!important;
+      }
+
+}
+
+@media only screen and (min-width: 1024px)and (max-width: 1199px) {
+    .slide-video-out{
+        height: 100vh!important;
+      }
+
+}
+@media only screen and (min-width: 1200px) {
+    .slide-video-out{
+        height: 100vh!important;
+      }
+
+}

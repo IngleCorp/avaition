@@ -70,14 +70,28 @@ body{
 .navbar-header{
 height: 90px;
 }
-
-.slide-video{
+.slide-video-out{
     position: relative;
+    
+    height: -webkit-fill-available;
+}
+.slide-video-in{
+    position: relative;
+    
+    height: -webkit-fill-available;
+}
+.slide-video{
+    position: fixed;
     margin-top: 100px;
+    z-index: -1;
+    width: 100%;
 }
 .slide-text{
 font-size: 40px;
 color: white!important;
+}
+.bg{
+    background-color: white;
 }
 /* header............................................................................... */
 #mu-header {
