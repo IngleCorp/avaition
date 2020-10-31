@@ -227,14 +227,14 @@ color: white!important;
     padding: 22px 30px!important;
   }
   .mu-main-navbar .mu-main-nav li a:hover {
-    color: #edcd1f !important;
+    color: #edcd1f ;
     
     
   }
   
   /* #edcd1f */
   .mu-main-navbar .mu-main-nav li a:active  {
-    background-color: white;
+    color: white;
 
     
     
@@ -379,7 +379,7 @@ ul.sub-menu {
 .nav-log-bx{
     background-color: #edcd1f;
     height: -webkit-fill-available;
-    width: 25%;
+    width: auto;
     top: 0;
     padding-left: 14px;
     padding-right: 20px;

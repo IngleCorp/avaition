@@ -150,7 +150,7 @@
       }
 
       .mu-main-navbar .mu-main-nav li a:hover {
-        color: #f3f3f3 !important;
+        color: white !important;
         
         
       }
@@ -241,6 +241,11 @@
         
         
       }
+      .mu-main-navbar .mu-main-nav li a:hover {
+        color: #f3f3f3 !important;
+        
+        
+      }
      
       .home-text{
         position: absolute;
@@ -250,6 +255,7 @@
         text-align: center;
     }
 }
+
 
 
 /*----------------------------------
