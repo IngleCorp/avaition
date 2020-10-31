@@ -68,7 +68,7 @@ body{
     text-align: center;
 }
 .navbar-header{
-height: 90px;
+height: 88px;
 }
 .slide-video-out{
     position: relative;
@@ -191,7 +191,7 @@ color: white!important;
    NAVBAR SECTION
   ====================*/
   .navbar-nav.navbar-center { 
-    padding: 20px 0px;
+    padding-top: 40px;
     float: right;
     /* transform: translatex(-50%);  */
   } 
@@ -387,9 +387,9 @@ ul.sub-menu {
 }
 
 .a-logo{
-    width: 220px;
+    width: 245px;
     float: left;
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 
